@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Page Layout</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <style> 
+   header{
+      background-color:darkcyan;
+      color:white;
+      padding:5px;
+     font-size:1.8vw; 
+     font-family: cursive;
+     font-weight:bold;
+     letter-spacing: 5px;
+    }
+    header p{
+        margin-left:28%;
+        font-size:1vw;
+    }
+    #nav{
+      margin-bottom:0;
+      border-radius:0; 
+    }
+    .sidenav{
+      padding-top:20px;
+      background-color:#f1f1f1;
+      height:100%;
+    }
+    footer{
+      background-color:darkcyan;
+      color:white;
+      padding:15px;
+      font-family: cursive;
+    }
+    @media screen and(max-width:767px){
+      .sidenav{
+        height:auto;
+        padding:15px;
+      }
+    .row.content{
+        height:auto;
+        } 
+    }
+    .row.content{
+        height:450px;
+    }
+  </style>
+</head>
+<body>
+<header class="container-fluid text-center">
+    EDUMA LEARNING
+    <p>- Better Eduaction for a Better World!</p>
+</header>
+<nav class="navbar navbar-default" id="nav">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+      <a class="navbar-brand" href="#"> 
+          <img src="https://www.kindpng.com/picc/m/332-3321467_graduate-hat-icon-graduation-cap-logo-png-transparent.png" alt="logo" style="width:30px; border-radius: 50%; " alt="logo"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Courses</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-7 text-left"> 
+        <br>
+        <div class="well">
+            <h4><b>Paid Courses</b></h4>
+            <img src="img1.jpg" alt="paid course" style="width:100%;">
+            <br>
+            <br>
+            <p style="font-size: 1.2vw;"> In paid courses we will have access to all course materials including graded assignment. We will have full access to course material until course ends.   </p>
+        </div>
+
+      <div class="well">
+        <h4><b>Free Courses</b></h4>
+        <img src="img3.png" alt="free course" style="width:100%;">
+        <br>
+        <br>
+        <p style="font-size: 1.2vw;">In free course we have to enroll for the course.we get free certification for completion of the course.
+            We can simply choose a training program that we need  and then enroll to it at no cost, and evaluate the same by ourself. 
+            If after a few days you like it enough you can pay and continue further, otherwise, you can not pay and enjoy the free content.
+        </p>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+    <div class="col-sm-3 text-left">
+        <h4><b>About</b></h4>
+        <div class="well well-sm">
+            <img src="a1.jpg" alt="About Learning"style="width: 100%;">
+            <p style="font-size: 1.2vw;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eduma is a online learning and training platform for school, college, institute and university.
+            </p>
+        </div>
+      <div class="well well-sm">
+          <h4><b>Latest Courses</b></h4>
+        <img src="ai1.png" alt="artificial" style="width:100%;">
+        <img src="ml1.jpg" alt=" machine learning"style="width:100%;">
+        <img src="cc1.png" alt="cloud computing" style="width:100%;">
+     
+      </div>
+      <div class="well well-sm">
+        <h5><b>Follow me</b></h5>
+        <a href=""><b>eduma.learn@gmail.com</b></a>
+        <br>
+        <i class="fa fa-facebook-square" aria-hidden="true" style="font-size:2vw;"></i>
+        <i class="fa fa-instagram" aria-hidden="true" style="font-size:2vw;"></i>
+        <i class="fa fa-twitter" aria-hidden="true" style="font-size:2vw;"></i>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+   <b><small>&copy; Copyright 2020, Eduma Corporation</small></b> 
+
+</footer>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
